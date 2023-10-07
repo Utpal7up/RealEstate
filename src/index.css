@@ -51,9 +51,8 @@ a {
 
 @media screen and (max-width: 600px) {
   body {
-    width: 500%;
+    width: 300%;
     margin: 0;
     padding: 0;
   }
-
 }
