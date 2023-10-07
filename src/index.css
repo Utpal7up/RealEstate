@@ -14,7 +14,7 @@ body {
 }
 
 .container {
-  width: 100vw;
+  width: 100%;
   max-width: 1240px;
   margin: auto;
 }
@@ -47,4 +47,13 @@ a {
 .btn:hover {
   /* border: 5px solid black; */
   transform: scale(1.1);
+}
+
+@media screen and (max-width: 600px) {
+  body {
+    width: 500%;
+    margin: 0;
+    padding: 0;
+  }
+
 }
