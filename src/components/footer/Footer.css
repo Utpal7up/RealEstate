@@ -38,7 +38,7 @@
     transition: 0.5s;
 }
 
-@media screen and (max-width: 940px) {
+@media screen and (max-width: 840px) {
     .footer .container {
         grid-template-columns: repeat(2, 1fr);
         gap: .5rem;
