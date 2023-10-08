@@ -8,7 +8,7 @@ import './Best.css'
 const Best = () => {
     return (
         <div className='best'>
-            <h1>Find Best Rated Properties</h1>
+            <h1 className='h1'>Find Best Rated Properties</h1>
             <div>
                 <p><span className='bold'>All</span></p>
                 <p>Commercial</p>

@@ -2,6 +2,7 @@
     width: 100%;
     padding: 2rem 0;
     background-color: #f8f8f8;
+    overflow: hidden;
 }
 
 .footer .container {
@@ -24,6 +25,7 @@
 
 .footer .social {
     text-align: center;
+    overflow: hidden;
 }
 
 .footer .icon {
@@ -38,10 +40,16 @@
     transition: 0.5s;
 }
 
-@media screen and (max-width: 840px) {
+@media screen and (max-width: 940px) {
     .footer .container {
         grid-template-columns: repeat(2, 1fr);
         gap: .5rem;
+        overflow: hidden;
+    }
+
+    .social{
+        width: 100%;
+        overflow: hidden;
     }
 
     .footer .icon {
